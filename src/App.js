@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import Sizes from "./Sizes";
 
 function App() {
 
@@ -42,6 +43,9 @@ function App() {
         ))}
       </ul>
       </header>
+        <p>
+            <Sizes></Sizes>
+        </p>
     </div>
   );
 }
